@@ -3,7 +3,6 @@ package com.company;
 import java.util.function.BiConsumer;
 
 enum Key {
-    // Numbers
     ZERO    ("0", Calculator::pressedNumber),
     ONE     ("1", Calculator::pressedNumber),
     TWO     ("2", Calculator::pressedNumber),
